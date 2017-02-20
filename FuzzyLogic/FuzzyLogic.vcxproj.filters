@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy">
+      <UniqueIdentifier>{1da70bb1-9e72-42db-87fa-6085dbb6bce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fuzzy">
+      <UniqueIdentifier>{0f85fa22-e4f8-4504-940e-d422aa06bab8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzyHedges.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzyModule.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzyOperators.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzyRule.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzySet.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzySet_LeftShoulder.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzySet_RightShoulder.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzySet_Singleton.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzySet_Triangle.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzyTerm.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FuzzyVariable.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzy\FzSet.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fuzzy\FuzzyModule.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzy\FuzzyOperators.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzy\FuzzySet_LeftShoulder.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzy\FuzzySet_RightShoulder.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzy\FuzzySet_Singleton.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzy\FuzzySet_Triangle.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzy\FuzzyVariable.cpp">
+      <Filter>Source Files\Fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
